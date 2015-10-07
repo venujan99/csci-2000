@@ -1,0 +1,32 @@
+(a) echo hello world
+
+This command displays out the whatever that is the input or string after the command “echo” to the standard output. In this case the terminal displays “hello world”.
+
+(b) echo {con,pre}{sent,fer}{s,ed}
+
+This command adds each part of a word that is separated by commas in the brackets, to make a complete word. The number of parts used to create the word is based on how many sets of {} are given.
+
+(c) date
+
+The date command provides the current system date and time in the format {Day Month Date Time Year}. This command can also be used to set the system date.
+
+(d) whoami
+
+This command prints the user name of the current user who is logged in.
+
+(e) cal 2000
+
+The cal command displays a calendar to the standard output. If the command “cal” is typed alone without any parameters, it will display only the calendar for the current month. In this case, “cal 2000“ will display the calendar for each month in the year 2000.
+
+(f) cal 9 1752 (do you notice anything unusual?)
+
+This command displays the calendar for ninth month (September) of the year 1752. Something that is unusual is that the calendar only display three weeks, and after September 2nd, it skips right to September 14th.
+
+(g) bc -l (type quit or press Ctrl-d to quit)
+
+The “bc” command is a precision calculator language. The -l defines the standard math library.
+
+(h) echo 5+4 | bc -l  
+
+This command executes the addition operation for the given numbers and displays the result to the standard output. In this case the result of 5+4 which is 9, is displayed to the standard output.
+
