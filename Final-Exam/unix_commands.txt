@@ -4,6 +4,8 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
+cat classlist.csv|tail -n +2
+
 
 
 
@@ -13,7 +15,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
+cat classlist.csv|tail -n +2|grep Student_ID
 
 
 # part (c)
@@ -24,8 +26,10 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
+sort -d classlist.csv
 
-
+First Student: Alvin Alcazar
+Last Student: Zenia Woodbridge
 
 # part (d)
 # Construct a Unix pipeline involving these functions to determine
@@ -33,7 +37,7 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-
+cat classlist.csv
 
 
 # part (f) [BONUS]
